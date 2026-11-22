@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "perlinfo",
+  "version": "${version}",
+  "name": "PerlInfo",
+  "description": "Perlowy alarm: kto rzucil perle, gdzie spadnie i za ile sekund. Klawisz H otwiera ustawienia.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.perlinfo.PerlClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
